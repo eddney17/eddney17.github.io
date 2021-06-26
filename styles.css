@@ -1,8 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
 html, body {
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #F1F1F1 !important;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
 }
 .secondary-font {
   font-family: "Roboto Slab", serif;
@@ -15,6 +31,28 @@ html, body {
   border-color: #ffffff;
   border-style: solid;
   font-weight: 600;
+}
+.btn-transparent-primary {
+  background-color: transparent;
+  color: #707070;
+  border-radius: 50px;
+  padding: 10px 40px;
+  border-color: #707070;
+  border-style: solid;
+  font-weight: 600;
+}
+.btn-transparent-primary:hover {
+  background-color: #707070;
+  color: #ffffff;
+}
+.font-lightgrey {
+  color: #bdbbbb;
+}
+.font-darkgrey {
+  color: #707070;
+}
+.bolder {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map*/
